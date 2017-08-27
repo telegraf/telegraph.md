@@ -1,0 +1,37 @@
+{
+  "name": "telegraph.md",
+  "version": "0.0.0",
+  "description": "Markdown powered pages for Telegra.ph",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && ava test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/telegraf/telegraph.md.git"
+  },
+  "keywords": [
+    "telegra.ph",
+    "markdown"
+  ],
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telegraf/telegraph.md/issues"
+  },
+  "homepage": "https://github.com/telegraf/telegraph.md#readme",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-ava": "^4.0.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "dependencies": {
+    "commonmark": "^0.28.1"
+  }
+}
