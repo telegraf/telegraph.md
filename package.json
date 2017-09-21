@@ -1,6 +1,6 @@
 {
   "name": "telegraph.md",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Markdown powered pages for Telegra.ph",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/telegraf/telegraph.md#readme",
   "files": [
-    "index.js"
+    "index.js",
+    "markdown-render.js"
   ],
   "devDependencies": {
     "ava": "^0.17.0",
